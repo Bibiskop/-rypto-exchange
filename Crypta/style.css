@@ -14,9 +14,12 @@ body
     height: 100vh;
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
 }
 .header
 {
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -53,4 +56,104 @@ padding: 10px;
 .navbar--text:hover
 {
     color: rgb(143, 168, 252);
+}
+.main
+{
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    background-position: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.main-exchenger
+{
+    background-color: white;
+    border-radius: 50px;
+    padding: 50px;
+
+}
+.sellBuy
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.exchange-form-reverse-image
+{
+    content: "";
+    width: 31px;
+    height: 31px;
+    background-image: url(/img/icons8-swap-48.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sell, .buy
+{
+    padding: 20px;
+}
+
+.exchenger--button
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.button
+{
+    height: 7vh;
+    width: 50vh;
+    border-radius: 50px;
+    background-color: rgba(12, 11, 66, 0.89);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 4vh;
+    color: white;
+}
+button:hover
+{
+    color: rgb(143, 168, 252);
+}
+.main--info
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.info--text
+{
+    padding: 50px;
+}
+.info--block
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.info--text--title
+{
+    font-size: 5vh;
+    padding: 20px;
+    text-align: center;
+    color: rgba(12, 11, 66, 0.89);
+}
+.info--text--description
+{
+    font-size: 2.2vh;
+    padding: 20px;
+    text-align: center;
+    color: rgba(12, 11, 66, 0.89);
+}
+.info--line
+{
+    border: 0.5px solid white;
+    margin-right: 50px;
+    margin-left: 50px;
 }
