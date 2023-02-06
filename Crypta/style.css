@@ -11,6 +11,7 @@
 body
 {
     background: linear-gradient(rgba(12, 11, 66, 0.89),rgb(143, 168, 252));
+    background-repeat: no-repeat;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -34,12 +35,12 @@ a
 }
 .logo
 {
-font-size: 5vh;
+    font-size: 5vh;
 }
 .navbar--text
 {
-font-size: 2.2vh;
-padding: 10px;
+    font-size: 2.2vh;
+    padding: 10px;
 }
 .regLog--text
 {

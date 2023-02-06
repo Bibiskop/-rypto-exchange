@@ -1,9 +1,5 @@
 @media only screen and (max-width: 320px)
 {
-    body
-    {
-        width: 320px;
-    }
     .logo
     {
         font-size: 4vh;
@@ -122,10 +118,6 @@
 }
 @media only screen and (max-width: 375px)
 {
-    body
-    {
-        width: 375px;
-    }
     .logo
     {
         font-size: 4vh;
@@ -244,10 +236,6 @@
 }
 @media only screen and (max-width: 425px)
 {
-    body
-    {
-        width: 425px;
-    }
     .logo
     {
         font-size: 4vh;
@@ -362,5 +350,19 @@
     .footer--info
     {
         font-size: 1vh;
+    }
+}
+@media only screen and (max-width: 768px)
+{
+    .info--text 
+    {
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 1024px)
+{
+    .info--text 
+    {
+        padding: 15px;
     }
 }
