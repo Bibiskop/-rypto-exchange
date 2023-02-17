@@ -1,364 +1,3 @@
-@media only screen and (max-width: 320px)
-{
-    .logo
-    {
-        font-size: 4vh;
-    }
-    .navbar--text
-    {
-        font-size: 1.7vh;
-        padding: 5px;
-    }
-    .regLog--text
-    {
-        border: 1px solid white;
-        border-radius: 30px;
-        font-size: 2vh;
-        padding: 5px;
-    }
-    
-    .header
-    {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .main-exchenger
-    {
-        border-radius: 25px;
-        padding: 0px;
-    }
-    .sellBuy--text
-    {
-        font-size: 2vh;
-    }
-    .exchange-form-reverse-image
-    {
-        width: 10px;
-        height: 10px;
-    }
-    .sell, .buy
-    {
-        padding: 10px;
-    }
-    .filter--text
-    {
-        padding: 2px;
-        font-size: 1vh;
-    }
-    .sellBuy--input1, .sellBuy--input2
-    {
-        width: 130px;
-        height: 35px;
-        font-size: 2vh;
-    }
-    .padding--input
-    {
-        padding-top: 0px;
-    }
-    .infoConv
-    {
-        font-size: 1.3vh;
-    }
-    .exchenger--button
-    {
-        padding-top: 0px;
-        padding-bottom: 10px;
-    }
-    .button
-    {
-        height: 4vh;
-        width: 20vh;
-        border-radius: 25px;
-        font-size: 2vh;
-    }
-    .main--info
-    {
-        display: flex;
-        flex-direction: column;
-    }
-    .info--text
-    {
-        padding: 10px;
-    }
-    .info--block
-    {
-        border-radius: 25px;
-    }
-    .info--text--title
-    {
-        font-size: 4vh;
-        padding: 5px;
-    }
-    .info--text--description
-    {
-        font-size: 2vh;
-        padding: 6px;
-    }
-    .info--line
-    {
-        margin-right: 50px;
-        margin-left: 50px;
-    }
-    .footer--img1
-    {
-        width: 35px;
-        height: 15px;
-    }
-    .footer--img2, .footer--img3
-    {
-        width: 35px;
-        height: 30px;
-    }
-    .footer--info
-    {
-        font-size: 1vh;
-    }
-}
-@media only screen and (max-width: 375px)
-{
-    .logo
-    {
-        font-size: 4vh;
-    }
-    .navbar--text
-    {
-        font-size: 1.7vh;
-        padding: 5px;
-    }
-    .regLog--text
-    {
-        border: 1px solid white;
-        border-radius: 30px;
-        font-size: 2vh;
-        padding: 5px;
-    }
-    
-    .header
-    {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .main-exchenger
-    {
-        border-radius: 25px;
-        padding: 0px;
-    }
-    .sellBuy--text
-    {
-        font-size: 2vh;
-    }
-    .exchange-form-reverse-image
-    {
-        width: 10px;
-        height: 10px;
-    }
-    .sell, .buy
-    {
-        padding: 10px;
-    }
-    .filter--text
-    {
-        padding: 2px;
-        font-size: 1vh;
-    }
-    .sellBuy--input1, .sellBuy--input2
-    {
-        width: 130px;
-        height: 35px;
-        font-size: 2vh;
-    }
-    .padding--input
-    {
-        padding-top: 0px;
-    }
-    .infoConv
-    {
-        font-size: 1.3vh;
-    }
-    .exchenger--button
-    {
-        padding-top: 0px;
-        padding-bottom: 10px;
-    }
-    .button
-    {
-        height: 4vh;
-        width: 20vh;
-        border-radius: 25px;
-        font-size: 2vh;
-    }
-    .main--info
-    {
-        display: flex;
-        flex-direction: column;
-    }
-    .info--text
-    {
-        padding: 10px;
-    }
-    .info--block
-    {
-        border-radius: 25px;
-    }
-    .info--text--title
-    {
-        font-size: 4vh;
-        padding: 5px;
-    }
-    .info--text--description
-    {
-        font-size: 2vh;
-        padding: 6px;
-    }
-    .info--line
-    {
-        margin-right: 50px;
-        margin-left: 50px;
-    }
-    .footer--img1
-    {
-        width: 35px;
-        height: 15px;
-    }
-    .footer--img2, .footer--img3
-    {
-        width: 35px;
-        height: 30px;
-    }
-    .footer--info
-    {
-        font-size: 1vh;
-    }
-}
-@media only screen and (max-width: 425px)
-{
-    .logo
-    {
-        font-size: 4vh;
-    }
-    .navbar--text
-    {
-        font-size: 1.7vh;
-        padding: 5px;
-    }
-    .regLog--text
-    {
-        border: 1px solid white;
-        border-radius: 30px;
-        font-size: 2vh;
-        padding: 5px;
-    }
-    
-    .header
-    {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .main-exchenger
-    {
-        border-radius: 25px;
-        padding: 0px;
-    }
-    .sellBuy--text
-    {
-        font-size: 2vh;
-    }
-    .exchange-form-reverse-image
-    {
-        width: 10px;
-        height: 10px;
-    }
-    .sell, .buy
-    {
-        padding: 10px;
-    }
-    .filter--text
-    {
-        padding: 2px;
-        font-size: 1vh;
-    }
-    .sellBuy--input1, .sellBuy--input2
-    {
-        width: 130px;
-        height: 35px;
-        font-size: 2vh;
-    }
-    .padding--input
-    {
-        padding-top: 0px;
-    }
-    .infoConv
-    {
-        font-size: 1.3vh;
-    }
-    .exchenger--button
-    {
-        padding-top: 0px;
-        padding-bottom: 10px;
-    }
-    .button
-    {
-        height: 4vh;
-        width: 20vh;
-        border-radius: 25px;
-        font-size: 2vh;
-    }
-    .main--info
-    {
-        display: flex;
-        flex-direction: column;
-    }
-    .info--text
-    {
-        padding: 10px;
-    }
-    .info--block
-    {
-        border-radius: 25px;
-    }
-    .info--text--title
-    {
-        font-size: 4vh;
-        padding: 5px;
-    }
-    .info--text--description
-    {
-        font-size: 2vh;
-        padding: 6px;
-    }
-    .info--line
-    {
-        margin-right: 50px;
-        margin-left: 50px;
-    }
-    .footer--img1
-    {
-        width: 35px;
-        height: 15px;
-    }
-    .footer--img2, .footer--img3
-    {
-        width: 35px;
-        height: 30px;
-    }
-    .footer--info
-    {
-        font-size: 1vh;
-    }
-}
-@media only screen and (max-width: 768px)
-{
-    .info--text 
-    {
-        padding: 10px;
-    }
-}
 @media only screen and (max-width: 1024px)
 {
     .info--text 
@@ -366,3 +5,477 @@
         padding: 15px;
     }
 }
+@media only screen and (max-width: 768px)
+{
+    .logo
+    {
+        font-size: 4ex;
+    }
+    .navbar--text
+    {
+        font-size: 1.5ex;
+        padding: 5px;
+    }
+    .regLog--text
+    {
+        border: 1px solid white;
+        border-radius: 30px;
+        font-size: 1.5ex;
+        padding: 5px;
+    }
+    
+    .header
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .main-exchenger
+    {
+        border-radius: 25px;
+        padding: 25px;
+    }
+    .sellBuy--text
+    {
+        font-size: 2ex;
+    }
+    .exchange-form-reverse-image
+    {
+        width: 20px;
+        height: 20px;
+    }
+    .sell, .buy
+    {
+        padding: 20px;
+    }
+    .filter--text
+    {
+        padding: 2px;
+        font-size: 1ex;
+    }
+    .sellBuy--input1, .sellBuy--input2
+    {
+        width: 130px;
+        height: 40px;
+        font-size: 1.5ex;
+    }
+    .padding--input
+    {
+        padding-top: 0px;
+    }
+    .infoConv
+    {
+        font-size: 1.3ex;
+    }
+    .exchenger--button
+    {
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    .button
+    {
+        height: 4ex;
+        width: 20ex;
+        border-radius: 25px;
+        font-size: 1.5ex;
+    }
+    .main--info
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .info--text
+    {
+        padding: 10px;
+    }
+    .info--block
+    {
+        border-radius: 25px;
+    }
+    .info--text--title
+    {
+        font-size: 2.3ex;
+        padding: 5px;
+    }
+    .info--text--description
+    {
+        font-size: 1ex;
+        padding: 6px;
+    }
+    .info--line
+    {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .footer--img1
+    {
+        width: 35px;
+        height: 15px;
+    }
+    .footer--img2, .footer--img3
+    {
+        width: 35px;
+        height: 30px;
+    }
+    .footer--info
+    {
+        font-size: 1.3ex;
+    }
+}
+@media only screen and (max-width: 425px)
+{
+    .logo
+    {
+        font-size: 3ex;
+    }
+    .navbar--text
+    {
+        font-size: 1ex;
+        padding: 5px;
+    }
+    .regLog--text
+    {
+        border: 1px solid white;
+        border-radius: 30px;
+        font-size: 1ex;
+        padding: 5px;
+    }
+    
+    .header
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-exchenger
+    {
+        border-radius: 25px;
+        padding: 0px;
+    }
+    .sellBuy--text
+    {
+        font-size: 1.5ex;
+    }
+    .exchange-form-reverse-image
+    {
+        width: 10px;
+        height: 10px;
+    }
+    .sell, .buy
+    {
+        padding: 10px;
+    }
+    .filter--text
+    {
+        padding: 2px;
+        font-size: 0.5ex;
+    }
+    .sellBuy--input1, .sellBuy--input2
+    {
+        width: 130px;
+        height: 35px;
+        font-size: 1ex;
+    }
+    .padding--input
+    {
+        padding-top: 0px;
+    }
+    .infoConv
+    {
+        font-size: 0.9ex;
+    }
+    .exchenger--button
+    {
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    .button
+    {
+        height: 4ex;
+        width: 20ex;
+        border-radius: 25px;
+        font-size: 1ex;
+    }
+    .main--info
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .info--text
+    {
+        padding: 10px;
+    }
+    .info--block
+    {
+        border-radius: 25px;
+    }
+    .info--text--title
+    {
+        font-size: 2ex;
+        padding: 5px;
+    }
+    .info--text--description
+    {
+        font-size: 1ex;
+        padding: 6px;
+    }
+    .info--line
+    {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .footer--img1
+    {
+        width: 35px;
+        height: 15px;
+    }
+    .footer--img2, .footer--img3
+    {
+        width: 35px;
+        height: 30px;
+    }
+    .footer--info
+    {
+        font-size: 0.8ex;
+    }
+}
+@media only screen and (max-width: 375px)
+{
+    .logo
+    {
+        font-size: 3ex;
+    }
+    .navbar--text
+    {
+        font-size: 1ex;
+        padding: 5px;
+    }
+    .regLog--text
+    {
+        border: 1px solid white;
+        border-radius: 30px;
+        font-size: 1ex;
+        padding: 5px;
+    }
+    
+    .header
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-exchenger
+    {
+        border-radius: 25px;
+        padding: 0px;
+    }
+    .sellBuy--text
+    {
+        font-size: 1.5ex;
+    }
+    .exchange-form-reverse-image
+    {
+        width: 10px;
+        height: 10px;
+    }
+    .sell, .buy
+    {
+        padding: 10px;
+    }
+    .filter--text
+    {
+        padding: 2px;
+        font-size: 0.5ex;
+    }
+    .sellBuy--input1, .sellBuy--input2
+    {
+        width: 130px;
+        height: 35px;
+        font-size: 1ex;
+    }
+    .padding--input
+    {
+        padding-top: 0px;
+    }
+    .infoConv
+    {
+        font-size: 0.9ex;
+    }
+    .exchenger--button
+    {
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    .button
+    {
+        height: 4ex;
+        width: 20ex;
+        border-radius: 25px;
+        font-size: 1ex;
+    }
+    .main--info
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .info--text
+    {
+        padding: 10px;
+    }
+    .info--block
+    {
+        border-radius: 25px;
+    }
+    .info--text--title
+    {
+        font-size: 2ex;
+        padding: 5px;
+    }
+    .info--text--description
+    {
+        font-size: 1ex;
+        padding: 6px;
+    }
+    .info--line
+    {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .footer--img1
+    {
+        width: 35px;
+        height: 15px;
+    }
+    .footer--img2, .footer--img3
+    {
+        width: 35px;
+        height: 30px;
+    }
+    .footer--info
+    {
+        font-size: 0.8ex;
+    }
+}
+@media only screen and (max-width: 320px)
+{
+    .logo
+    {
+        font-size: 3ex;
+    }
+    .navbar--text
+    {
+        font-size: 1ex;
+        padding: 5px;
+    }
+    .regLog--text
+    {
+        border: 1px solid white;
+        border-radius: 30px;
+        font-size: 1ex;
+        padding: 5px;
+    }
+    
+    .header
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-exchenger
+    {
+        border-radius: 25px;
+        padding: 0px;
+    }
+    .sellBuy--text
+    {
+        font-size: 1.5ex;
+    }
+    .exchange-form-reverse-image
+    {
+        width: 10px;
+        height: 10px;
+    }
+    .sell, .buy
+    {
+        padding: 10px;
+    }
+    .filter--text
+    {
+        padding: 2px;
+        font-size: 0.5ex;
+    }
+    .sellBuy--input1, .sellBuy--input2
+    {
+        width: 130px;
+        height: 35px;
+        font-size: 1ex;
+    }
+    .padding--input
+    {
+        padding-top: 0px;
+    }
+    .infoConv
+    {
+        font-size: 0.9ex;
+    }
+    .exchenger--button
+    {
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    .button
+    {
+        height: 4ex;
+        width: 20ex;
+        border-radius: 25px;
+        font-size: 1ex;
+    }
+    .main--info
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .info--text
+    {
+        padding: 10px;
+    }
+    .info--block
+    {
+        border-radius: 25px;
+    }
+    .info--text--title
+    {
+        font-size: 2ex;
+        padding: 5px;
+    }
+    .info--text--description
+    {
+        font-size: 1ex;
+        padding: 6px;
+    }
+    .info--line
+    {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .footer--img1
+    {
+        width: 35px;
+        height: 15px;
+    }
+    .footer--img2, .footer--img3
+    {
+        width: 35px;
+        height: 30px;
+    }
+    .footer--info
+    {
+        font-size: 0.8ex;
+    }
+}
+
+
